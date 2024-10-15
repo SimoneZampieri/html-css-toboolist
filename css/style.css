@@ -2,4 +2,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* header */
+
+header{
+    max-width: 1550px;
+}
+
+header div{
+    display: inline-block;
+}
+
+header div img{
+    padding-left: 25px;
+    vertical-align: middle;
+}
+
+header .name{
+    font-size: 3rem;
+    font-weight: 300;
+    vertical-align: middle;
+}
+/* /header */
+
+/* main */
+main{
+    max-width: 1550px;
+    background-color: #f6f8fa ;
+}
+
+.container{
+    max-width: 810px;
+    background-color: white;
 }
