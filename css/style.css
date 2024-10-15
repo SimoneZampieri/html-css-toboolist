@@ -73,11 +73,12 @@ div .container{
 }
 
 .title::before{
-    content: '&#x25BC';
+    content: '\25BC';
 }
 
 ul{
     padding-top: 5px;
+    list-style-type: none;
 }
 
 li{
@@ -85,12 +86,76 @@ li{
     padding-top: 5px;
 }
 
+li::before{
+    content: '\2705';
+}
+
+.a::before{
+    content: '\274C';
+}
+
 .Editorial{
     width: 70px;
     padding: 5px;
-    border-radius: 10%;
+    margin-left: 5px;
+    border-radius: 15%;
     display: inline-block;
     background-color: #45aded;
+    text-align: center;
+    color: white;
+}
+
+.recruiting{
+    width: 80px;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15%;
+    display: inline-block;
+    background-color: #62c5aa;
+    text-align: center;
+    color: white;
+}
+
+.mobile{
+    width: 70px;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15%;
+    display: inline-block;
+    background-color: #eea528;
+    text-align: center;
+    color: white;
+}
+
+.website{
+    width: 70px;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15%;
+    display: inline-block;
+    background-color: #d964a1;
+    text-align: center;
+    color: white;
+}
+
+.q1{
+    width: 90px;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15%;
+    display: inline-block;
+    background-color: #9b75de;
+    text-align: center;
+    color: white;
+}
+
+.sales{
+    width: 60px;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15%;
+    display: inline-block;
+    background-color: #aec72e;
     text-align: center;
     color: white;
 }
