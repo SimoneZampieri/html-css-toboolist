@@ -9,6 +9,7 @@
 
 header{
     max-width: 1550px;
+    background-color: white;
 }
 
 header div{
@@ -28,7 +29,7 @@ header .name{
 /* /header */
 
 /* main */
-main{
+body{
     max-width: 1550px;
     background-color: #f6f8fa ;
 }
@@ -79,8 +80,9 @@ ul{
     padding-top: 5px;
 }
 
-ul .a{
-    list-style-type: symbols(\2713);
+li{
+    padding-bottom: 10px;
+    padding-top: 5px;
 }
 
 .Editorial{
